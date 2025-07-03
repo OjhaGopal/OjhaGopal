@@ -1,79 +1,93 @@
-<!-- 🌌 Animated GitHub Banner -->
+<!-- 🔥 Animated Banner -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Hey+there!+👋+I'm+Gopal+Ojha;Welcome+to+my+GitHub+Profile!;AI+Engineer+|+Backend+Developer+|+Open+Source+Lover;&center=true&width=700&height=45&color=0DFF92&vCenter=true&size=22" />
-</div>
-
-<!-- 🐍 GitHub Snake Contributions -->
-<div align="center"> 
-  <h2>🐍 <span style="color:#44D7B6;">GitHub Contributions</span></h2>
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/salesp07/salesp07/output/github-contribution-grid-snake.svg" />
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Hey+there!+👋+I'm+Gopal+Ojha;AI+Enthusiast+|+Backend+Dev+|+LeetCode+Grinder;&center=true&width=700&height=45&color=0DFF92&vCenter=true&size=22" />
 </div>
 
 ---
 
-<!-- 🔗 Socials -->
-<h2 align="center">🌐 Let's Connect</h2>
+## 🧑‍💻 About Me
+Hi! I’m **Gopal Ojha**, a passionate backend developer and AI enthusiast from India 🇮🇳  
+I love solving real-world problems using code. Currently working as a **Backend Intern** at Trade-In and pursuing a B.Tech in AI.
+
+- 🔭 I’m currently working on: scalable microservices, embeddings-based search, and live sensor prediction dashboards.
+- 🌱 Learning: Distributed Systems, Web3, MLOps
+- 🧠 Hobbies: Problem Solving, Chess, Sketching & Anime
+- 💬 Ask me about: Flask, Express, Python, Spring Boot, Next.js
+
+---
+
+## 🌍 Socials
 <p align="center">
   <a href="https://leetcode.com/u/usergopal/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" />
   </a>
   <a href="https://www.linkedin.com/in/gopal-ojha-763152171" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://github.com/OjhaGopal" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
 
 ---
 
-<!-- ⚙️ Tech Stack -->
-<h2 align="center">⚙️ Tech Stack</h2>
+## 🛠 Tech Stack
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,js,ts,nodejs,express,react,nextjs,mongodb,postgresql,docker,git,github,vscode,aws" />
+  <img src="https://skillicons.dev/icons?i=python,java,js,nodejs,express,react,nextjs,spring,mongodb,postgresql,git,docker,aws,vscode" />
 </p>
 
 ---
 
-<!-- 📊 LeetCode Section -->
-<h2 align="center">📈 LeetCode Stats</h2>  
+## 📌 Projects Showcase
+
+| Project | Tech Stack | Description |
+|--------|------------|-------------|
+| [🔗 QuickRide Backend](https://github.com/OjhaGopal/QuickRide) | Spring Boot, PostgreSQL, JWT | Ride-booking backend system with driver allocation & payments |
+| [💸 Payment Gateway Clone](https://github.com/OjhaGopal/fullstack-payment) | Express, PostgreSQL, Prisma, React | Full-stack dummy payment infra with webhooks |
+| [🔮 Machine Failure Prediction](https://github.com/OjhaGopal/machine-failure-flask) | Flask, CNN, Live Sensor Data | Predict failure types in real-time with visualization |
+
+---
+
+## 📈 LeetCode Stats
 <p align="center">
-  <a href="https://leetcode.com/u/usergopal/" target="_blank">
-    <img src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" alt="LeetCode Profile" height="200" width="200" />
+  <a href="https://leetcode.com/u/usergopal/">
+    <img src="https://leetcard.jacoblin.cool/usergopal?theme=dark&font=Nunito&ext=heatmap" />
   </a>
 </p>
-<p align="center">
-  <img src="https://leetcard.jacoblin.cool/usergopal?theme=dark&font=Nunito&ext=heatmap" alt="LeetCode Card" />
-</p>
 
 ---
 
-<!-- 📦 GitHub Stats -->
-<h2 align="center">⚡ GitHub Stats</h2>
+## ⚡ GitHub Stats
 <div align="center">
-  <table>
-    <tr>
-      <td>
-        <img width="390" src="https://github-readme-stats.vercel.app/api?username=OjhaGopal&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="GitHub Stats" />
-      </td>
-      <td>
-        <img width="390" src="https://github-readme-stats.vercel.app/api/top-langs/?username=OjhaGopal&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="Top Languages" />
-      </td>
-    </tr>
-  </table>
+  <img width="390" src="https://github-readme-stats.vercel.app/api?username=OjhaGopal&show_icons=true&theme=react&rank_icon=github&border_radius=10" />
+  <img width="390" src="https://github-readme-stats.vercel.app/api/top-langs/?username=OjhaGopal&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" />
 </div>
 
 ---
 
-<!-- 🧠 Fun Quote -->
-<h2 align="center">🧠 Quote I Live By</h2>
-<p align="center">
-  <i>"Stay hungry, stay foolish." – Steve Jobs</i>
-</p>
+## 🎯 2025 Goals
+- ✅ Contribute to 3 major open-source projects
+- 📦 Build and launch a SaaS tool
+- 🏅 Crack GSoC/Outreachy or similar fellowship
+- 🧠 Master system design for backend
+- 💼 Land a full-time backend/AIML role
 
 ---
 
-<!-- 🧭 Footer -->
+## 📜 Certifications
+- [💡 Stanford CS229 ML Specialization (Coursera)](#)
+- [📘 Full-Stack Bootcamp by XYZ](#)
+- [🧠 Web3 Foundations – Ongoing](#)
+
+---
+
+## 🤓 Fun Facts
+- 🐍 I use Python for **almost everything** (even for scheduling laundry!)
+- 🧠 I can go from Flask to FastAPI faster than your CI pipeline.
+- ⚡ I believe typing speed directly correlates to debugging frustration.
+
+---
+
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=OjhaGopal&label=Profile+Views&color=brightgreen" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=OjhaGopal&label=Profile+Views&color=brightgreen" />
 </p>
