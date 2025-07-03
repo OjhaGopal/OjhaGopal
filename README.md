@@ -12,7 +12,7 @@
   <a href="https://leetcode.com/u/usergopal/" target="_blank">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
   </a>
-  <a href="https://www.linkedin.com/in/gopalojha/" target="_blank">
+  <a href="linkedin.com/in/gopal-ojha-763152171" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://github.com/OjhaGopal" target="_blank">
