@@ -14,16 +14,20 @@
 
 Hi! I'm **Gopal Ojha**, a passionate backend developer and AI enthusiast from India 🇮🇳
 
-Currently working as a **Backend Intern** at Trade-In and pursuing B.Tech in AI. I love building scalable systems and solving complex problems with elegant code.
+Currently working as a **Junior Software Engineer** at [Tradejini](https://www.tradejini.com), a leading fintech company specializing in discount brokerage and trading solutions. Completed B.Tech in AI (2025). I love building scalable systems and solving complex problems with elegant code.
+
+💼 **Professional Work**: Most of my enterprise-level contributions are in private repositories under [@Gopalojha22](https://github.com/Gopalojha22), where I work on production systems for tradejini.com and fintech solutions.
 
 ```yaml
 name: Gopal Ojha
 location: India 🇮🇳
-role: Backend Developer & AI Enthusiast
-current_focus: ["Microservices", "AI/ML", "System Design"]
-learning: ["Distributed Systems", "Web3", "MLOps"]
-hobbies: ["Problem Solving", "Chess", ]
-ask_me_about: ["Flask", "Spring Boot", "Python", "System Architecture"]
+role: Junior Software Engineer & AI Enthusiast
+current_focus: ["Fintech Solutions", "Trading Systems", "Payment APIs"]
+learning: ["TypeScript", "Microservices", "Financial Markets"]
+hobbies: ["Problem Solving", "Chess", "AI Research"]
+ask_me_about: ["Python", "JavaScript", "Fintech APIs", "Trading Systems"]
+experience: ["8+ months at Tradejini", "6 months internship + 2 months SDE"]
+work_profile: ["@Gopalojha22 - Production fintech systems"]
 ```
 
 ---
@@ -39,6 +43,9 @@ ask_me_about: ["Flask", "Spring Boot", "Python", "System Architecture"]
   <a href="https://github.com/OjhaGopal" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
+  <a href="https://www.tradejini.com" target="_blank">
+    <img src="https://img.shields.io/badge/Tradejini-FF6B35?style=for-the-badge&logo=web&logoColor=white" />
+  </a>
 </p>
 
 ---
@@ -48,13 +55,13 @@ ask_me_about: ["Flask", "Spring Boot", "Python", "System Architecture"]
 <div align="center">
 
 ### Languages & Frameworks
-<img src="https://skillicons.dev/icons?i=python,java,js,typescript,nodejs,express,spring,react,nextjs" />
+<img src="https://skillicons.dev/icons?i=python,js,typescript,nodejs,express,react,nextjs,flask" />
 
 ### Databases & Tools
 <img src="https://skillicons.dev/icons?i=mongodb,postgresql,redis,docker,aws,git,vscode,postman" />
 
 ### AI/ML & Others
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,flask,fastapi,nginx,linux" />
+<img src="https://skillicons.dev/icons?i=tensorflow,opencv,jupyter,fastapi,nginx,linux" />
 
 </div>
 
@@ -66,9 +73,11 @@ ask_me_about: ["Flask", "Spring Boot", "Python", "System Architecture"]
 
 | 🎯 Project | 🛠 Tech Stack | 📝 Description | 🔗 Links |
 |------------|---------------|-----------------|----------|
-| **QuickRide Backend** | Spring Boot, PostgreSQL, JWT | Scalable ride-booking system with real-time driver allocation | [Code](https://github.com/OjhaGopal/QuickRide) |
-| **Payment Gateway** | Express, PostgreSQL, Prisma, React | Full-stack payment infrastructure with webhook integration | [Code](https://github.com/OjhaGopal/fullstack-payment) |
-| **ML Failure Predictor** | Flask, CNN, TensorFlow | Real-time machine failure prediction with live sensor data | [Code](https://github.com/OjhaGopal/machine-failure-flask) |
+| **Payment App** | TypeScript, React, Node.js | Modern payment application with secure transaction handling | [Code](https://github.com/OjhaGopal/Payment_App) |
+| **Rasa Chat Bot** | Python, Rasa, NLP | Intelligent conversational AI bot with natural language processing | [Code](https://github.com/OjhaGopal/Rasa-Chat-Bot) |
+| **Dog Breed Prediction** | Python, TensorFlow, CNN | ML model for accurate dog breed classification using deep learning | [Code](https://github.com/OjhaGopal/Dog-Breed-Prediction) |
+| **PAN Card Tampering Detection** | Python, OpenCV, ML | Computer vision system to detect document tampering | [Code](https://github.com/OjhaGopal/pan-card-tempring) |
+| **Predictive Maintenance** | Jupyter, Python, ML | Industrial IoT solution for equipment failure prediction | [Code](https://github.com/OjhaGopal/Predictive-Maintenance) |
 
 </div>
 
@@ -97,11 +106,11 @@ ask_me_about: ["Flask", "Spring Boot", "Python", "System Architecture"]
 
 | Goal | Status | Progress |
 |------|--------|----------|
-| 🌟 Contribute to 3+ open-source projects | 🔄 In Progress | `██░░░░░░░░` 20% |
-| 🚀 Build & launch a SaaS product | 📋 Planning | `█░░░░░░░░░` 10% |
-| 🏆 Crack GSoC/Major Fellowship | 🎯 Preparing | `███░░░░░░░` 30% |
-| 🧠 Master System Design & Architecture | 📚 Learning | `█████░░░░░` 50% |
-| 💼 Land Full-time Backend/AI Role | 🔍 Searching | `███░░░░░░░` 30% |
+| 🌟 Build 15+ quality repositories | 🔄 In Progress | `███████░░░` 73% |
+| 🚀 Master TypeScript & Modern JS | 📚 Learning | `██████░░░░` 60% |
+| 🏆 Contribute to open-source projects | 🎯 Preparing | `██░░░░░░░░` 20% |
+| 🧠 Deploy ML models in production | 📚 Learning | `████░░░░░░` 40% |
+| 💼 Excel as Junior Software Engineer | ✅ Achieved | `██████████` 100% |
 
 </div>
 
@@ -113,10 +122,10 @@ ask_me_about: ["Flask", "Spring Boot", "Python", "System Architecture"]
 
 | 🏅 Certification | 🏢 Provider | 📅 Status |
 |------------------|-------------|----------|
+| B.Tech in Artificial Intelligence | University | ✅ Completed (2025) |
 | Machine Learning Specialization | Stanford/Coursera | ✅ Completed |
 | Full-Stack Development | Bootcamp | ✅ Completed |
 | Web3 Foundations | Self-Study | 🔄 Ongoing |
-| AWS Cloud Practitioner | Amazon | 📋 Planned |
 
 </div>
 
