@@ -1,33 +1,37 @@
 <!-- 🔥 Animated Banner -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Hey+there!+👋+I'm+Gopal+Ojha;AI+Enthusiast+%7C+Backend+Developer+%7C+Problem+Solver;Building+Scalable+Systems+%26+AI+Solutions;&center=true&width=800&height=50&color=0DFF92&vCenter=true&size=24" />
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Hey+there!+👋+I'm+Gopal+Ojha;Software+Engineer+%7C+AI+Enthusiast+%7C+Full-Stack+Developer;Building+Scalable+Systems+%26+AI+Solutions;&center=true&width=800&height=50&color=0DFF92&vCenter=true&size=24" />
 </div>
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=OjhaGopal&label=Profile+Views&color=0DFF92&style=flat-square" />
   <img src="https://img.shields.io/github/followers/OjhaGopal?label=Followers&style=flat-square&color=0DFF92" />
+  <img src="https://img.shields.io/github/stars/OjhaGopal?label=Stars&style=flat-square&color=0DFF92" />
 </div>
 
 ---
 
 ## 🧑💻 About Me
 
-Hi! I'm **Gopal Ojha**, a passionate backend developer and AI enthusiast from India 🇮🇳
+Hi! I'm **Gopal Ojha**, a passionate Software Engineer and AI enthusiast from India 🇮🇳
 
-Currently working as a **Junior Software Engineer** at [Tradejini](https://www.tradejini.com), a leading fintech company specializing in discount brokerage and trading solutions. Completed B.Tech in AI (2025). I love building scalable systems and solving complex problems with elegant code.
+Currently working as a **Software Engineer** at [Tradejini](https://www.tradejini.com), a leading fintech company specializing in discount brokerage and trading solutions. Completed B.Tech in AI (2025). I love building scalable systems, creating innovative web applications, and solving complex problems with elegant code.
 
 💼 **Professional Work**: Most of my enterprise-level contributions are in private repositories under [@Gopalojha22](https://github.com/Gopalojha22), where I work on production systems for tradejini.com and fintech solutions.
+
+🚀 **Personal Projects**: I actively develop and maintain personal projects including [DevOps Catalyst](https://www.devopscatalyst.in/) and various full-stack applications showcased below.
 
 ```yaml
 name: Gopal Ojha
 location: India 🇮🇳
-role: Junior Software Engineer & AI Enthusiast
-current_focus: ["Fintech Solutions", "Trading Systems", "Payment APIs"]
-learning: ["TypeScript", "Microservices", "Financial Markets"]
-hobbies: ["Problem Solving", "Chess", "AI Research"]
-ask_me_about: ["Python", "JavaScript", "Fintech APIs", "Trading Systems"]
-experience: ["8+ months at Tradejini", "6 months internship + 2 months SDE"]
+role: Software Engineer & AI Enthusiast
+current_focus: ["Fintech Solutions", "Full-Stack Development", "AI/ML Projects"]
+learning: ["TypeScript", "Microservices", "DevOps", "Cloud Technologies"]
+hobbies: ["Problem Solving", "Chess", "AI Research", "Open Source"]
+ask_me_about: ["Python", "JavaScript", "React", "Fintech APIs", "Trading Systems"]
+experience: ["1+ year at Tradejini", "Multiple personal projects"]
 work_profile: ["@Gopalojha22 - Production fintech systems"]
+personal_projects: ["DevOps Catalyst", "Behavior Chart", "Payment App"]
 ```
 
 ---
@@ -45,6 +49,9 @@ work_profile: ["@Gopalojha22 - Production fintech systems"]
   </a>
   <a href="https://www.tradejini.com" target="_blank">
     <img src="https://img.shields.io/badge/Tradejini-FF6B35?style=for-the-badge&logo=web&logoColor=white" />
+  </a>
+  <a href="https://www.devopscatalyst.in/" target="_blank">
+    <img src="https://img.shields.io/badge/DevOps_Catalyst-00D4FF?style=for-the-badge&logo=web&logoColor=white" />
   </a>
 </p>
 
@@ -73,6 +80,8 @@ work_profile: ["@Gopalojha22 - Production fintech systems"]
 
 | 🎯 Project | 🛠 Tech Stack | 📝 Description | 🔗 Links |
 |------------|---------------|-----------------|----------|
+| **DevOps Catalyst** | Full-Stack Web | Personal website showcasing DevOps tools and resources | [Live](https://www.devopscatalyst.in/) |
+| **Behavior Chart** | Python, React, JavaScript | Interactive behavior tracking chart application | [Live](https://behavior-chart-by-gopal.vercel.app/) \| [Code](https://github.com/OjhaGopal/behavior-chart) |
 | **Payment App** | TypeScript, React, Node.js | Modern payment application with secure transaction handling | [Code](https://github.com/OjhaGopal/Payment_App) |
 | **Rasa Chat Bot** | Python, Rasa, NLP | Intelligent conversational AI bot with natural language processing | [Code](https://github.com/OjhaGopal/Rasa-Chat-Bot) |
 | **Dog Breed Prediction** | Python, TensorFlow, CNN | ML model for accurate dog breed classification using deep learning | [Code](https://github.com/OjhaGopal/Dog-Breed-Prediction) |
@@ -110,7 +119,8 @@ work_profile: ["@Gopalojha22 - Production fintech systems"]
 | 🚀 Master TypeScript & Modern JS | 📚 Learning | `██████░░░░` 60% |
 | 🏆 Contribute to open-source projects | 🎯 Preparing | `██░░░░░░░░` 20% |
 | 🧠 Deploy ML models in production | 📚 Learning | `████░░░░░░` 40% |
-| 💼 Excel as Junior Software Engineer | ✅ Achieved | `██████████` 100% |
+| 💼 Excel as Software Engineer | ✅ Achieved | `██████████` 100% |
+| 🌐 Launch personal website projects | ✅ Achieved | `██████████` 100% |
 
 </div>
 
@@ -131,6 +141,15 @@ work_profile: ["@Gopalojha22 - Production fintech systems"]
 
 ---
 
+## 💡 What I'm Currently Working On
+
+- 🔧 **DevOps Catalyst**: Expanding my personal website with more DevOps tools and resources
+- 📊 **Behavior Chart**: Enhancing the interactive tracking application with new features
+- 🏦 **Fintech Solutions**: Building scalable trading and payment systems at Tradejini
+- 🤖 **AI Projects**: Exploring new machine learning applications and deployments
+
+---
+
 ## 🤓 Fun Facts
 
 - 🐍 I use Python for **almost everything** (even for scheduling laundry!)
@@ -138,10 +157,23 @@ work_profile: ["@Gopalojha22 - Production fintech systems"]
 - 🧠 I believe typing speed directly correlates to debugging frustration
 - 🎯 I solve LeetCode problems while waiting for Docker builds
 - 🌙 I'm a night owl who codes best after midnight
+- 🚀 I love turning ideas into live applications that people can actually use
+
+---
+
+## 📫 Let's Connect!
+
+<div align="center">
+  <p>💬 Feel free to reach out for collaborations, discussions about tech, or just to say hi!</p>
+  <p>📧 <strong>Email:</strong> Available on LinkedIn</p>
+  <p>🌐 <strong>Website:</strong> <a href="https://www.devopscatalyst.in/">DevOps Catalyst</a></p>
+</div>
 
 ---
 
 <div align="center">
   <h3>💫 "Code is poetry written in logic" 💫</h3>
   <p><i>Thanks for visiting! Let's connect and build something amazing together! 🚀</i></p>
+  
+  <img src="https://github.com/OjhaGopal/OjhaGopal/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </div>
