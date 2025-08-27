@@ -103,16 +103,8 @@ personal_projects: ["DevOps Catalyst", "Behavior Chart", "Payment App"]
 
 ## ⚡ GitHub Stats
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=OjhaGopal&show_icons=true&theme=react&rank_icon=github&border_radius=10&include_all_commits=true&count_private=true" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=OjhaGopal&hide=HTML&langs_count=10&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" />
-</div>
-
-<div align="center">
-  <img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=OjhaGopal&theme=react&border_radius=10" />
-</div>
-
-<div align="center">
-  <img width="70%" src="https://github-readme-activity-graph.vercel.app/graph?username=OjhaGopal&theme=react-dark&bg_color=20232a&hide_border=true" />
+  <img width="390" src="https://github-readme-stats.vercel.app/api?username=OjhaGopal&show_icons=true&theme=react&border_radius=10" />
+  <img width="390" src="https://github-readme-stats.vercel.app/api/top-langs/?username=OjhaGopal&layout=compact&theme=react&border_radius=10" />
 </div>
 
 ---
@@ -183,5 +175,3 @@ personal_projects: ["DevOps Catalyst", "Behavior Chart", "Payment App"]
   <h3>💫 "Code is poetry written in logic" 💫</h3>
   <p><i>Thanks for visiting! Let's connect and build something amazing together! 🚀</i></p>
   
-  <img src="https://github.com/OjhaGopal/OjhaGopal/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-</div>
