@@ -100,11 +100,20 @@ personal_projects: ["Trading Simulator", "DevOps Catalyst", "Behavior Chart", "P
 ---
 
 ## ⚡ GitHub Stats
+
+### Personal Profile (@OjhaGopal)
 <div align="center">
   <img width="390" src="https://github-readme-stats.vercel.app/api?username=OjhaGopal&show_icons=true&theme=react&border_radius=10&include_all_commits=true&count_private=true" />
   <img width="390" src="https://github-readme-stats.vercel.app/api/top-langs/?username=OjhaGopal&layout=compact&theme=react&border_radius=10&include_all_commits=true&count_private=true" />
 </div>
 
+### Work Profile (@Gopalojha22)
+<div align="center">
+  <img width="390" src="https://github-readme-stats.vercel.app/api?username=Gopalojha22&show_icons=true&theme=react&border_radius=10&include_all_commits=true&count_private=true" />
+  <img width="390" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gopalojha22&layout=compact&theme=react&border_radius=10&include_all_commits=true&count_private=true" />
+</div>
+
+### Combined Activity
 <div align="center">
   <img width="600" src="https://github-readme-streak-stats.herokuapp.com/?user=OjhaGopal&theme=react&border_radius=10" />
 </div>
