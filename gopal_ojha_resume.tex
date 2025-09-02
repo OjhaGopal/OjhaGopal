@@ -1,0 +1,454 @@
+\documentclass[11pt, letterpaper]{article}
+
+% Packages:
+\usepackage[
+    ignoreheadfoot, % set margins without considering header and footer
+    top=1.5 cm, % seperation between body and page edge from the top
+    bottom=1.5 cm, % seperation between body and page edge from the bottom
+    left=1.5 cm, % seperation between body and page edge from the left
+    right=1.5 cm, % seperation between body and page edge from the right
+    footskip=0.5 cm, % seperation between body and footer
+    % showframe % for debugging 
+]{geometry} % for adjusting page geometry
+\usepackage{titlesec} % for customizing section titles
+\usepackage{tabularx} % for making tables with fixed width columns
+\usepackage{array} % tabularx requires this
+\usepackage[dvipsnames]{xcolor} % for coloring text
+\definecolor{primaryColor}{RGB}{0, 0, 0} % define primary color
+\usepackage{enumitem} % for customizing lists
+\usepackage{fontawesome5} % for using icons
+\usepackage{amsmath} % for math
+\usepackage[
+    pdftitle={Gopal Ojha CV},
+    pdfauthor={Gopal Ojha},
+    pdfcreator={LaTeX with RenderCV},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref} % for links, metadata and bookmarks
+\usepackage[pscoord]{eso-pic} % for floating text on the page
+\usepackage{calc} % for calculating lengths
+\usepackage{bookmark} % for bookmarks
+\usepackage{lastpage} % for getting the total number of pages
+\usepackage{changepage} % for one column entries (adjustwidth environment)
+\usepackage{paracol} % for two and three column entries
+\usepackage{ifthen} % for conditional statements
+\usepackage{needspace} % for avoiding page brake right after the section title
+\usepackage{iftex} % check if engine is pdflatex, xetex or luatex
+
+% Ensure that generate pdf is machine readable/ATS parsable:
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+\usepackage{charter}
+
+% Some settings:
+\raggedright
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
+\pagestyle{empty} % no header or footer
+\setcounter{secnumdepth}{0} % no section numbering
+\setlength{\parindent}{0pt} % no indentation
+\setlength{\topskip}{0pt} % no top skip
+\setlength{\columnsep}{0.15cm} % set column seperation
+\pagenumbering{gobble} % no page numbering
+
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+
+\titlespacing{\section}{
+    % left space:
+    -1pt
+}{
+    % top space:
+    0.2 cm
+}{
+    % bottom space:
+    0.1 cm
+} % section title spacing
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.05 cm,
+        parsep=0.05 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=0 cm + 10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights
+
+
+\newenvironment{highlightsforbulletentries}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights for bullet entries
+
+\newenvironment{onecolentry}{
+    \begin{adjustwidth}{
+        0 cm + 0.00001 cm
+    }{
+        0 cm + 0.00001 cm
+    }
+}{
+    \end{adjustwidth}
+} % new environment for one column entries
+
+\newenvironment{twocolentry}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 3.5 cm}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \centering \secondColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for two column entries
+
+\newenvironment{threecolentry}[3][]{
+    \onecolentry
+    \def\thirdColumn{#3}
+    \setcolumnwidth{, \fill, 4.5 cm}
+    \begin{paracol}{3}
+    {\raggedright #2} \switchcolumn
+}{
+    \switchcolumn \raggedleft \thirdColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for three column entries
+
+\newenvironment{header}{
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
+}{
+    \par\kern\topsep
+} % new environment for the header
+
+\newcommand{\placelastupdatedtext}{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
+  \AddToShipoutPictureFG*{% Add <stuff> to current page foreground
+    \put(
+        \LenToUnit{\paperwidth-2 cm-0 cm+0.05cm},
+        \LenToUnit{\paperheight-1.0 cm}
+    ){\vtop{{\null}\makebox[0pt][c]{
+        \small\color{gray}\textit{Last updated in January 2025}\hspace{\widthof{Last updated in January 2025}}
+    }}}%
+  }%
+}%
+
+% save the original href command in a new command:
+\let\hrefWithoutArrow\href
+
+% new command for external links:
+
+
+\begin{document}
+    \newcommand{\AND}{\unskip
+        \cleaders\copy\ANDbox\hskip\wd\ANDbox
+        \ignorespaces
+    }
+    \newsavebox\ANDbox
+    \sbox\ANDbox{$|$}
+
+    \begin{header}
+        \fontsize{25 pt}{25 pt}\selectfont Gopal Ojha
+
+        \vspace{5 pt}
+
+        \normalsize
+        \mbox{+91-7463901691}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{mailto:gopalojha7463@gmail.com}{gopalojha7463@gmail.com}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://leetcode.com/u/usergopal/}{Leetcode}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://linkedin.com/in/gopal-ojha-763152171}{LinkedIn}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://github.com/OjhaGopal}{GitHub}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://www.devopscatalyst.in/}{Portfolio}}%
+    \end{header}
+
+    \vspace{3 pt}
+
+    \section{Education}
+
+    \begin{onecolentry}
+        \textbf{J.D. College of Engineering and Management, Nagpur, India}
+    \end{onecolentry}
+    \begin{twocolentry}{
+        2021 - 2025
+    }
+        B.Tech in Artificial Intelligence, CGPA – 9.5\end{twocolentry}
+
+    \vspace{0.05 cm}
+
+    \begin{onecolentry}
+        \textbf{Catholic High School Bihar, India}
+    \end{onecolentry}
+    \begin{twocolentry}{
+        2020 - 2021
+    }
+        Higher Secondary Certificate\end{twocolentry}
+
+    \vspace{0.15 cm}
+
+    \section{Experience}
+
+    \begin{twocolentry}{
+        Mar 2025 – Present
+    }
+        \textbf{Junior Software Engineer}, Tradejini -- Bangalore\end{twocolentry}
+
+    \vspace{0.02 cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Promoted to full-time Junior Software Engineer after successful internship performance
+            \item Building scalable fintech solutions and trading systems for production environment
+            \item Developing backend APIs using Next.js T3 stack and optimizing database performance
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.1 cm}
+
+    \begin{twocolentry}{
+        Jan – Feb 2025
+    }
+        \textbf{Backend Developer Intern}, Tradejini -- Bangalore\end{twocolentry}
+
+    \vspace{0.02 cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Developed in-house projects using Next.js T3 stack (TypeScript, Tailwind CSS, tRPC, Prisma)
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.1 cm}
+
+    \begin{twocolentry}{
+        Dec 2024 – Feb 2024
+    }
+        \textbf{Data Analyst Intern}, Prepinsta -- Remote\end{twocolentry}
+
+    \vspace{0.02 cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Analyzed datasets using Python/SQL and created dashboards with Tableau/Power BI
+            \item Automated data workflows, improving efficiency by 30\% using Pandas and NumPy
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.15 cm}
+
+    \section{Projects}
+
+    \begin{twocolentry}{
+        \href{https://www.devopscatalyst.in/}{Live Demo}
+    }
+        \textbf{DevOps Catalyst}\end{twocolentry}
+    \vspace{0.02 cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Personal website showcasing DevOps tools and resources with modern design
+            \item Built with full-stack web technologies and responsive UI/UX
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.1 cm}
+    \begin{twocolentry}{
+        \href{https://behavior-chart-by-gopal.vercel.app/}{Live Demo}
+    }
+        \textbf{Behavior Chart}\end{twocolentry}
+    \vspace{0.02 cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Interactive behavior tracking application built with Python, React, JavaScript
+            \item Deployed on Vercel with real-time data visualization and user-friendly interface
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.1 cm}
+    \begin{twocolentry}{
+        \href{https://github.com/OjhaGopal/Payment_App}{GitHub Repo}
+    }
+        \textbf{Full-Stack Payment System}\end{twocolentry}
+    \vspace{0.02 cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Developed payment application using Next.js, Express, Turborepo, PostgreSQL, Prisma
+            \item Created dummy bank webhook to simulate financial transaction processing
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.1 cm}
+    \begin{twocolentry}{
+        \href{https://github.com/OjhaGopal/Rasa-Chat-Bot}{GitHub Repo}
+    }
+        \textbf{Rasa Chat Bot}\end{twocolentry}
+    \vspace{0.02 cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Developed conversational AI bot with NLP using Python and Rasa
+            \item Customized NLP models to handle domain-specific queries and integrated into platforms
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.1 cm}
+    \begin{twocolentry}{
+        Feb – Apr 2024
+    }
+        \textbf{Machine Failure Prediction}\end{twocolentry}
+    \vspace{0.02 cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Developed machine failure prediction model using Python and Scikit-learn
+            \item Integrated model with Flask-based web application for real-time predictions
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.15 cm}
+
+    \section{Technical Skills}
+
+    \begin{onecolentry}
+        \textbf{Languages:} Java, Python, JavaScript, SQL, TypeScript
+    \end{onecolentry}
+    \vspace{0.05 cm}
+    \begin{onecolentry}
+        \textbf{Frameworks:} Django, Flask, SpringBoot, Express.js, Next.js, React, Docker
+    \end{onecolentry}
+    \vspace{0.05 cm}
+    \begin{onecolentry}
+        \textbf{Databases:} MongoDB, PostgreSQL, MySQL, Redis
+    \end{onecolentry}
+    \vspace{0.05 cm}
+    \begin{onecolentry}
+        \textbf{Tools:} Monorepo, Turborepo, AWS, GitHub, Tableau, Power BI
+    \end{onecolentry}
+
+    \vspace{0.15 cm}
+
+    \section{Certifications \& Achievements}
+
+    \begin{onecolentry}
+        \textbf{Machine Learning Specialization} -- Stanford/Coursera (Completed)
+    \end{onecolentry}
+    \vspace{0.05 cm}
+    \begin{onecolentry}
+        \textbf{Full-Stack Development} -- Bootcamp (Completed)
+    \end{onecolentry}
+    \vspace{0.05 cm}
+    \begin{onecolentry}
+        \textbf{Academic Excellence:} Maintained 9.5 CGPA throughout B.Tech program
+    \end{onecolentry}
+    \vspace{0.05 cm}
+    \begin{onecolentry}
+        \textbf{LeetCode Profile:} Active problem solver with consistent coding practice
+    \end{onecolentry}
+
+\end{document}ncial transaction processing
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.05 cm}
+    \begin{twocolentry}{
+        \href{https://github.com/OjhaGopal/Rasa-Chat-Bot}{GitHub Repo}
+    }
+        \textbf{Rasa Chat Bot}\end{twocolentry}
+    \vspace{0.02 cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Developed conversational AI bot with NLP using Python and Rasa
+            \item Customized NLP models to handle domain-specific queries and integrated into platforms
+        \end{highlights}
+    \end{onecolentry}
+
+    \section{Technical Skills}
+
+    \begin{onecolentry}
+        \textbf{Languages:} Java, Python, JavaScript, SQL, TypeScript
+    \end{onecolentry}
+    \vspace{0.02 cm}
+    \begin{onecolentry}
+        \textbf{Frameworks:} Django, Flask, SpringBoot, Express.js, Next.js, React, Docker
+    \end{onecolentry}
+    \vspace{0.02 cm}
+    \begin{onecolentry}
+        \textbf{Databases:} MongoDB, PostgreSQL, MySQL, Redis
+    \end{onecolentry}
+    \vspace{0.02 cm}
+    \begin{onecolentry}
+        \textbf{Tools:} Monorepo, Turborepo, AWS, GitHub, Tableau, Power BI
+    \end{onecolentry}
+
+\end{document}     with tailored NLP models for domain-specific queries
+        \end{highlights}
+    \end{onecolentry}
+
+    \section{Technical Skills}
+
+    \begin{onecolentry}
+        \textbf{Programming Languages:} Java, Python, JavaScript, SQL, TypeScript
+    \end{onecolentry}
+
+    \vspace{0.05 cm}
+
+    \begin{onecolentry}
+        \textbf{Frameworks:} Django, Flask, SpringBoot, Express.js, Next.js, React, Docker, Kubernetes
+    \end{onecolentry}
+
+    \vspace{0.05 cm}
+
+    \begin{onecolentry}
+        \textbf{Databases:} MongoDB, PostgreSQL, MySQL, Redis
+    \end{onecolentry}
+
+    \vspace{0.05 cm}
+
+    \begin{onecolentry}
+        \textbf{Tools \& Technologies:} Monorepo, Turborepo, OOP, DBMS, DSA, Machine Learning, AWS, GitHub
+    \end{onecolentry}
+
+\end{document}entry}
+        \textbf{Programming Languages:} Java, Python, JavaScript, SQL, TypeScript
+    \end{onecolentry}
+
+    \vspace{0.05 cm}
+
+    \begin{onecolentry}
+        \textbf{Frameworks:} Django, Flask, SpringBoot, Express.js, Next.js, Docker, Kubernetes
+    \end{onecolentry}
+
+    \vspace{0.05 cm}
+
+    \begin{onecolentry}
+        \textbf{Databases:} MongoDB, PostgreSQL, MySQL, Redis
+    \end{onecolentry}
+
+    \vspace{0.05 cm}
+
+    \begin{onecolentry}
+        \textbf{Tools \& Technologies:} Monorepo, Turborepo, OOP, DBMS, DSA, Machine Learning, AWS, GitHub
+    \end{onecolentry}
+
+
+\end{document}

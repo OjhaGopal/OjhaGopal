@@ -1,6 +1,6 @@
 <!-- 🔥 Animated Banner -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Hey+there!+👋+I'm+Gopal+Ojha;Software+Engineer+%7C+AI+Enthusiast+%7C+Full-Stack+Developer;Building+Scalable+Systems+%26+AI+Solutions;&center=true&width=800&height=50&color=0DFF92&vCenter=true&size=24" />
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Hey+there!+👋+I'm+Gopal+Ojha;Software+Engineer+%7C+AI+Enthusiast;Building+Scalable+Systems+%26+AI+Solutions;&center=true&width=800&height=50&color=0DFF92&vCenter=true&size=24" />
 </div>
 
 <div align="center">
@@ -13,9 +13,9 @@
 
 ## 🧑💻 About Me
 
-Hi! I'm **Gopal Ojha**, a passionate Software Engineer and AI enthusiast from India 🇮🇳
+Hi! I'm **Gopal Ojha**, a passionate Software Engineer and AI enthusiast
 
-Currently working as a **Software Engineer** at [Tradejini](https://www.tradejini.com), a leading fintech company specializing in discount brokerage and trading solutions. Completed B.Tech in AI (2025). I love building scalable systems, creating innovative web applications, and solving complex problems with elegant code.
+Currently working as a **Junior Software Engineer** at [Tradejini](https://www.tradejini.com), a leading fintech company specializing in discount brokerage and trading solutions. Completed B.Tech in AI (2025). I love building scalable systems, creating innovative web applications, and solving complex problems with elegant code.
 
 💼 **Professional Work**: Most of my enterprise-level contributions are in private repositories under [@Gopalojha22](https://github.com/Gopalojha22), where I work on production systems for tradejini.com and fintech solutions.
 
@@ -31,7 +31,7 @@ hobbies: ["Problem Solving", "Chess", "AI Research", "Open Source"]
 ask_me_about: ["Python", "JavaScript", "React", "Fintech APIs", "Trading Systems"]
 experience: ["1+ year at Tradejini", "Multiple personal projects"]
 work_profile: ["@Gopalojha22 - Production fintech systems"]
-personal_projects: ["DevOps Catalyst", "Behavior Chart", "Payment App"]
+personal_projects: ["Trading Simulator", "DevOps Catalyst", "Behavior Chart", "Payment App"]
 ```
 
 ---
@@ -62,7 +62,7 @@ personal_projects: ["DevOps Catalyst", "Behavior Chart", "Payment App"]
 <div align="center">
 
 ### Languages & Frameworks
-<img src="https://skillicons.dev/icons?i=python,js,typescript,nodejs,express,react,nextjs,flask" />
+<img src="https://skillicons.dev/icons?i=java,python,js,typescript,nodejs,express,react,nextjs,flask" />
 
 ### Databases & Tools
 <img src="https://skillicons.dev/icons?i=mongodb,postgresql,redis,docker,aws,git,vscode,postman" />
@@ -80,13 +80,11 @@ personal_projects: ["DevOps Catalyst", "Behavior Chart", "Payment App"]
 
 | 🎯 Project | 🛠 Tech Stack | 📝 Description | 🔗 Links |
 |------------|---------------|-----------------|----------|
+| **Trading Simulator** | Full-Stack Web | Live trading simulator with real-time stock prices for 50+ stocks | [Live](https://cubeplus-tool.onrender.com) \| [Code](https://github.com/MaheTradejini/Cubeplus-Tool) |
 | **DevOps Catalyst** | Full-Stack Web | Personal website showcasing DevOps tools and resources | [Live](https://www.devopscatalyst.in/) |
-| **Behavior Chart** | Python, React, JavaScript | Interactive behavior tracking chart application | [Live](https://behavior-chart-by-gopal.vercel.app/) \| [Code](https://github.com/OjhaGopal/behavior-chart) |
+| **Behavior Chart** | Python, JavaScript | Interactive behavior tracking chart application | [Live](https://behavior-chart-by-gopal.vercel.app/) \| [Code](https://github.com/OjhaGopal/behavior-chart) |
 | **Payment App** | TypeScript, React, Node.js | Modern payment application with secure transaction handling | [Code](https://github.com/OjhaGopal/Payment_App) |
-| **Rasa Chat Bot** | Python, Rasa, NLP | Intelligent conversational AI bot with natural language processing | [Code](https://github.com/OjhaGopal/Rasa-Chat-Bot) |
-| **Dog Breed Prediction** | Python, TensorFlow, CNN | ML model for accurate dog breed classification using deep learning | [Code](https://github.com/OjhaGopal/Dog-Breed-Prediction) |
 | **PAN Card Tampering Detection** | Python, OpenCV, ML | Computer vision system to detect document tampering | [Code](https://github.com/OjhaGopal/pan-card-tempring) |
-| **Predictive Maintenance** | Jupyter, Python, ML | Industrial IoT solution for equipment failure prediction | [Code](https://github.com/OjhaGopal/Predictive-Maintenance) |
 
 </div>
 
@@ -103,8 +101,16 @@ personal_projects: ["DevOps Catalyst", "Behavior Chart", "Payment App"]
 
 ## ⚡ GitHub Stats
 <div align="center">
-  <img width="390" src="https://github-readme-stats.vercel.app/api?username=OjhaGopal&show_icons=true&theme=react&border_radius=10" />
-  <img width="390" src="https://github-readme-stats.vercel.app/api/top-langs/?username=OjhaGopal&layout=compact&theme=react&border_radius=10" />
+  <img width="390" src="https://github-readme-stats.vercel.app/api?username=OjhaGopal&show_icons=true&theme=react&border_radius=10&include_all_commits=true&count_private=true" />
+  <img width="390" src="https://github-readme-stats.vercel.app/api/top-langs/?username=OjhaGopal&layout=compact&theme=react&border_radius=10&include_all_commits=true&count_private=true" />
+</div>
+
+<div align="center">
+  <img width="600" src="https://github-readme-streak-stats.herokuapp.com/?user=OjhaGopal&theme=react&border_radius=10" />
+</div>
+
+<div align="center">
+  <img width="600" src="https://github-readme-activity-graph.vercel.app/graph?username=OjhaGopal&theme=react-dark&bg_color=20232a&hide_border=true" />
 </div>
 
 ---
@@ -143,6 +149,7 @@ personal_projects: ["DevOps Catalyst", "Behavior Chart", "Payment App"]
 
 ## 💡 What I'm Currently Working On
 
+- 📈 **Trading Simulator**: Deployed live trading platform with real-time stock prices and buy/sell functionality
 - 🔧 **DevOps Catalyst**: Expanding my personal website with more DevOps tools and resources
 - 📊 **Behavior Chart**: Enhancing the interactive tracking application with new features
 - 🏦 **Fintech Solutions**: Building scalable trading and payment systems at Tradejini
