@@ -101,22 +101,13 @@ personal_projects: ["Trading Simulator", "DevOps Catalyst", "Behavior Chart", "P
 
 ## ⚡ GitHub Stats
 
-### Personal Profile (@OjhaGopal)
+### Personal Profile (@OjhaGopal) & Work Profile (@Gopalojha22)
 <div align="center">
   <img width="390" src="https://github-readme-stats.vercel.app/api?username=OjhaGopal&show_icons=true&theme=react&border_radius=10&include_all_commits=true&count_private=true" />
-</div>
-
-### Work Profile (@Gopalojha22)
-<div align="center">
   <img width="390" src="https://github-readme-stats.vercel.app/api?username=Gopalojha22&show_icons=true&theme=react&border_radius=10&include_all_commits=true&count_private=true" />
 </div>
 
 ### Combined Activity
-<div align="center">
-  <img width="390" src="https://streak-stats.demolab.com/?user=OjhaGopal&theme=react&border_radius=10" />
-  <img width="390" src="https://streak-stats.demolab.com/?user=Gopalojha22&theme=react&border_radius=10" />
-</div>
-
 <div align="center">
   <img width="390" src="https://github-readme-activity-graph.vercel.app/graph?username=OjhaGopal&bg_color=20232a&color=61dafb&line=61dafb&point=ffffff&area=true&hide_border=true" />
   <img width="390" src="https://github-readme-activity-graph.vercel.app/graph?username=Gopalojha22&bg_color=20232a&color=61dafb&line=61dafb&point=ffffff&area=true&hide_border=true" />
