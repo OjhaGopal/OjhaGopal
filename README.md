@@ -104,13 +104,11 @@ personal_projects: ["Trading Simulator", "DevOps Catalyst", "Behavior Chart", "P
 ### Personal Profile (@OjhaGopal)
 <div align="center">
   <img width="390" src="https://github-readme-stats.vercel.app/api?username=OjhaGopal&show_icons=true&theme=react&border_radius=10&include_all_commits=true&count_private=true" />
-  <img width="390" src="https://github-readme-stats.vercel.app/api/top-langs/?username=OjhaGopal&layout=compact&theme=react&border_radius=10&include_all_commits=true&count_private=true" />
 </div>
 
 ### Work Profile (@Gopalojha22)
 <div align="center">
   <img width="390" src="https://github-readme-stats.vercel.app/api?username=Gopalojha22&show_icons=true&theme=react&border_radius=10&include_all_commits=true&count_private=true" />
-  <img width="390" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gopalojha22&layout=compact&theme=react&border_radius=10&include_all_commits=true&count_private=true" />
 </div>
 
 ### Combined Activity
@@ -119,7 +117,12 @@ personal_projects: ["Trading Simulator", "DevOps Catalyst", "Behavior Chart", "P
 </div>
 
 <div align="center">
-  <img width="600" src="https://github-readme-activity-graph.vercel.app/graph?username=OjhaGopal&theme=react-dark&bg_color=20232a&hide_border=true" />
+  <img width="600" src="https://github-readme-activity-graph.vercel.app/graph?username=OjhaGopal&bg_color=20232a&color=61dafb&line=61dafb&point=ffffff&area=true&hide_border=true" />
+</div>
+
+### Most Used Languages
+<div align="center">
+  <img width="600" src="https://github-readme-stats.vercel.app/api/top-langs/?username=OjhaGopal&layout=compact&theme=react&border_radius=10&include_all_commits=true&count_private=true" />
 </div>
 
 ---
