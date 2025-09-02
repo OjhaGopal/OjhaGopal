@@ -113,11 +113,13 @@ personal_projects: ["Trading Simulator", "DevOps Catalyst", "Behavior Chart", "P
 
 ### Combined Activity
 <div align="center">
-  <img width="600" src="https://github-readme-streak-stats.herokuapp.com/?user=OjhaGopal&theme=react&border_radius=10" />
+  <img width="390" src="https://streak-stats.demolab.com/?user=OjhaGopal&theme=react&border_radius=10" />
+  <img width="390" src="https://streak-stats.demolab.com/?user=Gopalojha22&theme=react&border_radius=10" />
 </div>
 
 <div align="center">
-  <img width="600" src="https://github-readme-activity-graph.vercel.app/graph?username=OjhaGopal&bg_color=20232a&color=61dafb&line=61dafb&point=ffffff&area=true&hide_border=true" />
+  <img width="390" src="https://github-readme-activity-graph.vercel.app/graph?username=OjhaGopal&bg_color=20232a&color=61dafb&line=61dafb&point=ffffff&area=true&hide_border=true" />
+  <img width="390" src="https://github-readme-activity-graph.vercel.app/graph?username=Gopalojha22&bg_color=20232a&color=61dafb&line=61dafb&point=ffffff&area=true&hide_border=true" />
 </div>
 
 ### Most Used Languages
