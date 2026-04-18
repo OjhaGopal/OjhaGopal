@@ -13,7 +13,6 @@ Junior Software Engineer at [Tradejini](https://www.tradejini.com), a fintech co
 - [LinkedIn](https://www.linkedin.com/in/gopal-ojha-763152171)
 - [GitHub (Personal)](https://github.com/OjhaGopal)
 - [GitHub (Work)](https://github.com/Gopalojha22)
-- [DevOps Catalyst](https://www.devopscatalyst.in/)
 
 ---
 
@@ -43,29 +42,7 @@ ask_me_about: Python, React, Fintech, Trading Systems
 
 ---
 
-## Featured Projects
-
-### [Trading Simulator](https://cubeplus-tool.onrender.com) — [Code](https://github.com/MaheTradejini/Cubeplus-Tool)
-Live trading simulator with real-time stock prices for 50+ stocks. Built for Tradejini.
-
-### [DevOps Catalyst](https://www.devopscatalyst.in/)
-Personal website showcasing DevOps tools, resources, and guides.
-
-### [Payment App](https://github.com/OjhaGopal/Payment_App)
-Modern payment application with secure transaction handling.
-`TypeScript · React · Node.js`
-
-### [PAN Card Tampering Detection](https://github.com/OjhaGopal/pan-card-tempring)
-Computer vision system to detect document tampering.
-`Python · OpenCV · ML`
-
-### [Behavior Chart](https://behavior-chart-by-gopal.vercel.app/) — [Code](https://github.com/OjhaGopal/behavior-chart)
-Interactive behavior tracking chart application.
-`Python · JavaScript`
-
----
-
 ## Get in Touch
 
 Open to collaborations and discussions about tech, fintech, and AI.
-Reach me via **LinkedIn** or at **[devopscatalyst.in](https://www.devopscatalyst.in/)**
+Reach me via **[LinkedIn](https://www.linkedin.com/in/gopal-ojha-763152171)**
